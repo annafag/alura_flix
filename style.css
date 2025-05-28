@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 :root{
   --branco-principal: #fff;
 --cinza-segundario:#C0C0C0;
@@ -22,6 +24,8 @@ margin: 0;
   backgroud-image: url("./imagem/backgroud.png");
   backgroud-repeat: no-repeat;
   backgroud-size: contain;
+  aling-items:center;
+  text-aling: center;
 }
 
 .container {
@@ -37,6 +41,7 @@ container_botao{
   color: var(--branco-principal);
   display: block;
   text-decoration: none;
+  margin-bottom: 1em;
 }
 
 .botao_secundario{
@@ -54,4 +59,39 @@ container_botao{
   font-weigth: 700;
 }
 
+.container_imagem{
+  margin: 1em 0 2em 0
+}
 
+.container_caixa{
+  margim: 0 6em;
+}
+
+secundario_imagem{
+  width: 80%;
+}
+
+.secundario{
+  alingn-items: center;
+  margin: 0 10em;
+}
+
+.descricao_titulo{
+  font-weigth: 700;
+  font-size: 48px;
+  color: var(--branco-principal);
+  margin-bottom: 0 .1em;
+}
+
+descricao_texto{
+  color: var(--cinza-secundario);
+}
+
+.secundario_botao{
+  display: inline-block;
+  margin-top: 1em;
+}
+
+.container_descricao{
+  padding: 2em;
+}
